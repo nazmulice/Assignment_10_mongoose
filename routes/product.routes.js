@@ -7,9 +7,6 @@ const {
   verifyToken,
 } = require("../controller/product.controller");
 
-
-//router.post("/products", products);
-
 router.get("/products", getProduct);
 
 router.get("/jwt", jwtToken);
